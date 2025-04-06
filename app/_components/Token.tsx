@@ -100,7 +100,7 @@ export default function Token(){
             toast.success("Token created and minted successfully!");
             console.log("Mint address:", mintkeypair.publicKey.toString());
             console.log("Token account:", associatedTokenAccount.toString());
-        } catch (error) {
+        } catch (error:any) {
             console.error("Transaction error:", error);
             toast.error(`Transaction failed: ${error.message}`);
         }
