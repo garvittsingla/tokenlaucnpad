@@ -107,7 +107,7 @@ export default function Token(){
     }
 
     return(
-        <div className="w-1/2 bg--900">
+        <div className="w-1/2 bg--900 h-96 ">
         <div className="w-full ">
             <h1 className="px-45 mb-6 text-xl font-[boldonse]">Token Launchpad</h1>
         </div>

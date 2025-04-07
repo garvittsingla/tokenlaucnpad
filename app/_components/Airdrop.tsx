@@ -34,7 +34,7 @@ export default function Airdrop(){
 
 
     return(
-        <div className="w-1/2 bg--900 p-10  bg--900">
+        <div className="w-1/2 bg--900  h-96 bg--900">
                 <h1 className="flex px-45 mb-10 text-xl font-[boldonse]">Faucet Mine  </h1>
                 <div className="flex flex-col items-center w-1/2  flex-shrink  h-32 ml-20  gap-2   ">
                    <div className="flex gap-2  ">

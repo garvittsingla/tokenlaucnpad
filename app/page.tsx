@@ -16,13 +16,13 @@ export default function Home() {
   const wallet = useWallet()
   console.log(wallet)
   return (
-    <div className="bg-black h-screen flex items-center justify-center w-full text-white ">
+    <div className="bg-black min-h-screen flex items-center justify-center w-full text-white ">
       <Toaster/>
       <div className="border backdrop-blur-sm bg-black/50 shadow-lg shadow-purple-500/10 border-white/20 h-11/12 w-15/16 rounded-xl">
       
-      <div className=" max-w-screen-xl mx-auto p-10  ">
-        <h1 className="font-mono text-4xl font-bold text-center flex gap-2 items-center justify-center">Token Lanchpad <Ticket size={30}/></h1>
-        <h6 className="text-end w-1/2 mx-auto  text-lg cursor-pointer mt-2"><Link className="flex justify-end gap-1" href={"https://github.com/garvittsingla"}>-Designed and  Developed by <Github size={20}/> Garvit Singla</Link> </h6>
+      <div className=" max-w-screen-xl mx-auto py-10 px-2 ">
+        <h1 className="font-[boldonse] text-3xl font-bold md:gap-2 text-center flex  items-center justify-center ]">Token Lanchpad <Ticket className="hidden md:block" size={40}/></h1>
+        <h6 className="md:text-end text-center  w-3/4 md:w-1/2  mx-auto bg--900 text-lg cursor-pointer mt-2"><Link className="md:flex  justify-end gap-1" href={"https://github.com/garvittsingla"}>-Designed and  Developed by <Github className=" md:block hidden underline-offset-1" size={30}/> Garvit Singla</Link> </h6>
       </div>
 
       
