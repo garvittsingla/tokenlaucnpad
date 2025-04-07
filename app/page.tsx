@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="bg-[#1a1a1a] min-h-screen flex items-center justify-center w-full text-white ">
       <Toaster/>
-      <div className="border backdrop-blur-sm bg-black/50 shadow-lg shadow-purple-500/10 border-white/20 h-11/12 w-15/16 rounded-xl">
+      <div className="border backdrop-blur-sm bg-black/50 shadow-lg shadow-purple-500/10 mt-5 md:mt-0 border-white/20 h-11/12 w-15/16 rounded-xl">
       
       <div className=" max-w-screen-xl mx-auto py-10 px-2 ">
         <h1 className="font-[boldonse] text-3xl font-bold md:gap-2 text-center flex  items-center justify-center ]">Token Lanchpad <Ticket className="hidden md:block" size={40}/></h1>
