@@ -18,7 +18,7 @@ export default function Main(){
         <h1>Your Public key : <span onClick={copypublickey} className="hover:text-purple-500 transition-all cursor-pointer flex gap-2">{wallet.publicKey?.toString()} <Clipboard size={20} /> </span></h1>
         <WalletDisconnectButton/>
         </div>
-        <div className="w-full flex  items-center ">
+        <div className="w-full md:flex  items-center ">
             <Airdrop/>
            <Token/>
         </div>
