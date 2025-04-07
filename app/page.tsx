@@ -16,7 +16,7 @@ export default function Home() {
   const wallet = useWallet()
   console.log(wallet)
   return (
-    <div className="bg-black min-h-screen flex items-center justify-center w-full text-white ">
+    <div className="bg-[#1a1a1a] min-h-screen flex items-center justify-center w-full text-white ">
       <Toaster/>
       <div className="border backdrop-blur-sm bg-black/50 shadow-lg shadow-purple-500/10 border-white/20 h-11/12 w-15/16 rounded-xl">
       
